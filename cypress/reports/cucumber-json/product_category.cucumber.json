@@ -1,0 +1,155 @@
+[
+  {
+    "description": "    Testing if product categories are visible",
+    "keyword": "Feature",
+    "name": "Product categories- PMT Sharing platform",
+    "line": 1,
+    "id": "product-categories--pmt-sharing-platform",
+    "tags": [],
+    "uri": "product_category.feature",
+    "elements": [
+      {
+        "id": "product-categories--pmt-sharing-platform;category-1---services",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Category 1 - Services",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User visits mobility marketplace",
+            "result": {
+              "status": "failed",
+              "duration": 80780000000,
+              "error_message": "CypressError: Timed out after waiting `80000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `80000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:129355:64)\n    at <unknown> (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:130329:16)\n    at tryCatcher (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1807:23)\n    at <unknown> (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:4186:41)\n    at tryCatcher (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/support/commands.js:30:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User mouseover on Services",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Services menu is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "all the sub-categories under Services should be visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-categories--pmt-sharing-platform;category-2---workflows",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Category 2 - Workflows",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User visits mobility marketplace",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out after waiting `80000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `80000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:129355:64)\n    at <unknown> (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:130329:16)\n    at tryCatcher (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1807:23)\n    at <unknown> (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:4186:41)\n    at tryCatcher (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/support/commands.js:30:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User mouseover on Workflows",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Workflows menu is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "all the sub-categories under Workflows should be visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-categories--pmt-sharing-platform;category-3---frameworks",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Category 3 - Frameworks",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User visits mobility marketplace",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out after waiting `80000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `80000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:129355:64)\n    at <unknown> (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:130329:16)\n    at tryCatcher (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1807:23)\n    at <unknown> (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:4186:41)\n    at tryCatcher (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://qa-sp.docs-dev.bosch-fsde.com/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/support/commands.js:30:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User mouseover on Frameworks",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "frameworks menu is displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "all the sub-categories under Frameworks should be visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

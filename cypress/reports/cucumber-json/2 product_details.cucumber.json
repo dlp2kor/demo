@@ -1,0 +1,485 @@
+[
+  {
+    "description": "   view details of each product list ",
+    "keyword": "Feature",
+    "name": "Product details- PMT Sharing platform",
+    "line": 1,
+    "id": "product-details--pmt-sharing-platform",
+    "tags": [],
+    "uri": "2 product_details.feature",
+    "elements": [
+      {
+        "id": "product-details--pmt-sharing-platform;saas-product-details",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Saas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on Saas page",
+            "result": {
+              "status": "failed",
+              "duration": 923000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/saas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/saas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:5:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on the \"SaaS Product 350\" product and \":nth-child(1) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/saas/saas-product-350/overview/8a80c0668a353d77018a4077bce70017#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/saas/saas-product-350/overview/8a80c0668a353d77018a4077bce70017#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;saas-product-details",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Saas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on Saas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/saas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/saas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:5:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on the \"SaaSProduct1\" product and \":nth-child(4) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/saas/saasproduct1/overview/8a80c03e89350d96018943a35d2b01a1#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/saas/saasproduct1/overview/8a80c03e89350d96018943a35d2b01a1#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;saas-product-details",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Saas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on Saas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/saas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/saas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:5:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on the \"SABAT\" product and \":nth-child(3) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/saas/sabat/overview/8a80c019887bfb7c01888b9125c9041e#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/saas/sabat/overview/8a80c019887bfb7c01888b9125c9041e#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;saas-product-details",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Saas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on Saas page",
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/saas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/saas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:5:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on the \"DocHub\" product and \":nth-child(2) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/saas/dochub/overview/8a80c056887ec56401888b62825a027c#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/saas/dochub/overview/8a80c056887ec56401888b62825a027c#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;saas-product-details",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Saas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on Saas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/saas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/saas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:5:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on the \"SaasProduct 355\" product and \":nth-child(5) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/saas/saas-product-355/overview/8a80c1d48a353b0c018a40c20a110017#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/saas/saas-product-355/overview/8a80c1d48a353b0c018a40c20a110017#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;saas-product-details",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Saas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on Saas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/saas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/saas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:5:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on the \"Saas Product 370\" product and \":nth-child(6) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/saas/saas-product-370/overview/8a80c09b8a353f26018a40c9444a000e#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/saas/saas-product-370/overview/8a80c09b8a353f26018a40c9444a000e#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;paas-product-details",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Paas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "user is on Paas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/paas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/paas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:49:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user clicks on the \"PaasProduct1\" product and \":nth-child(1) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/paas/paasproduct1/overview/8a80c0ec8939ef3f018943afea180150#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/paas/paasproduct1/overview/8a80c0ec8939ef3f018943afea180150#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;paas-product-details",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Paas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "user is on Paas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/paas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/paas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:49:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user clicks on the \"Paas2\" product and \":nth-child(2) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/paas/paas2/overview/8a80c1d28932171a0189440baa7d0376#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/paas/paas2/overview/8a80c1d28932171a0189440baa7d0376#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;paas-product-details",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Paas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "user is on Paas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/paas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/paas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:49:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user clicks on the \"Paas4\" product and \":nth-child(3) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/paas/paas4/overview/8a80c1ec89321605018948bad1c603d7#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/paas/paas4/overview/8a80c1ec89321605018948bad1c603d7#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-details--pmt-sharing-platform;paas-product-details",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Paas product details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "user is on Paas page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/paas\n\nWe failed looking for this file at the path:\n\n/Users/DLP2KOR/Desktop/AAROHANS-142/paas\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130296:76)\n    at visitFailedByErr (http://localhost:65091/__cypress/runner/cypress_runner.js:129704:12)\n    at <unknown> (http://localhost:65091/__cypress/runner/cypress_runner.js:130279:13)\n    at tryCatcher (http://localhost:65091/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:65091/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:65091/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:65091/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:65091/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:65091/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:65091/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:65091/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (cypress/e2e/2 product_details/product_details.js:49:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "user clicks on the \"PaaS Product 0002\" product and \":nth-child(4) > .MuiPaper-root > .MuiCardContent-root > :nth-child(5) > .MuiButton-root\" of product",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "user should be able to see \"https://qa-tools.mobilitymarketplace.io/paas/paas-product-0002/overview/8a80c0668a353d77018a4a17e6b6002f#overview\" page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "user navigates to \"https://qa-tools.mobilitymarketplace.io/paas/paas-product-0002/overview/8a80c0668a353d77018a4a17e6b6002f#pricing\" page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

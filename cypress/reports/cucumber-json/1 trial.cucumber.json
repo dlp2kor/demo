@@ -1,0 +1,43 @@
+[
+  {
+    "description": "    Blank",
+    "keyword": "Feature",
+    "name": "trying out report",
+    "line": 1,
+    "id": "trying-out-report",
+    "tags": [],
+    "uri": "1 trial.feature",
+    "elements": [
+      {
+        "id": "trying-out-report;blah-blah",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "blah blah",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user visits mobility marketplace",
+            "result": {
+              "status": "passed",
+              "duration": 19967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should see available links",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+name: cross browser testing 
+
+on:
+  push:
+    branches:
+      - "integration"
+      - "main"
+  pull_request:
+    types: [opened,reopened]
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    strategy:
+      matrix:
+        browser:
+          - chrome
+          
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+            
+      - name: Build and run Cypress tests
+        run: |
+          docker build -t my-cypress-image -f Dockerfile.chrome --build-arg BROWSER=${{ matrix.browser }} .
+           docker run --rm  \
+            -v ./artifacts/screenshots:/Top99TestAutomation/cypress/screenshots \
+            -v ./artifacts/videos:/Top99TestAutomation/cypress/videos \
+            -v ./artifacts/reports:/Top99TestAutomation/cypress/reports my-cypress-image
+        env:
+          CI: true
+          BROWSER: ${{ matrix.browser }}
+
+      - name: Upload Test Screenshots
+        uses: actions/upload-artifact@v2
+        if: ${{ always() }}
+        with:
+          name: cypress-results-screenshots
+          path: ./artifacts/screenshots
+        
+      - name: Upload Test videos 
+        uses: actions/upload-artifact@v2
+        if: ${{ always() }}
+        with:
+            name: cypress-results-videos
+            path: ./artifacts/videos
+            
+      - name: Upload Test result 
+        uses: actions/upload-artifact@v2
+        if: ${{ always() }}
+        with:
+            name: cypress-results-reports 
+            path: ./artifacts/reports

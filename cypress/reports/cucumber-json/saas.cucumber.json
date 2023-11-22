@@ -1,0 +1,98 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To test features of services sub-category: SaaS",
+    "line": 1,
+    "id": "to-test-features-of-services-sub-category:-saas",
+    "tags": [],
+    "uri": "saas.feature",
+    "elements": [
+      {
+        "id": "to-test-features-of-services-sub-category:-saas;to-check-overview-tab-of-saas-products",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "To check overview tab of SaaS products",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on SaaS listing page",
+            "result": {
+              "status": "passed",
+              "duration": 68782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "SaaS box is checked",
+            "result": {
+              "status": "failed",
+              "duration": 4129000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `label`, but never found it. Queried from:\n\n              > cy.get(input[type=\"checkbox\"]).filter(:checked)\n    at Context.eval (cypress/e2e/saas/saas.js:10:56)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks on View Details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be able to see overview page of product",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "to-test-features-of-services-sub-category:-saas;to-check-pricing-tab-of-saas-products",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "To check pricing tab of SaaS products",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "user is on overview page of the product",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on pricing tab",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should be able to view product pricing details",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

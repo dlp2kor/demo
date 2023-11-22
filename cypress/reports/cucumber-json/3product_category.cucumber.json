@@ -1,0 +1,163 @@
+[
+  {
+    "description": "    Testing if product categories are visible",
+    "keyword": "Feature",
+    "name": "Product categories- PMT Sharing platform",
+    "line": 1,
+    "id": "product-categories--pmt-sharing-platform",
+    "tags": [],
+    "uri": "3product_category.feature",
+    "elements": [
+      {
+        "id": "product-categories--pmt-sharing-platform;category-1---services",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Category 1 - Services",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User visits mobility marketplace",
+            "result": {
+              "status": "passed",
+              "duration": 113483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User mouseover on Services",
+            "result": {
+              "status": "passed",
+              "duration": 1125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Services menu is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "all the sub-categories under Services should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-categories--pmt-sharing-platform;category-2---workflows",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Category 2 - Workflows",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User visits mobility marketplace",
+            "result": {
+              "status": "passed",
+              "duration": 46773000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User mouseover on Workflows",
+            "result": {
+              "status": "passed",
+              "duration": 796000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Workflows menu is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "all the sub-categories under Workflows should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-categories--pmt-sharing-platform;category-3---frameworks",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Category 3 - Frameworks",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User visits mobility marketplace",
+            "result": {
+              "status": "passed",
+              "duration": 7416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User mouseover on Frameworks",
+            "result": {
+              "status": "passed",
+              "duration": 422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "frameworks menu is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "all the sub-categories under Frameworks should be visible",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
