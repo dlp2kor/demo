@@ -26,8 +26,8 @@ module.exports = defineConfig({
 
     });
   },
+  specPattern: "cypress/e2e/*.feature"
 },
-    specPattern: "cypress/e2e/*.feature",
     env: {
       "servicesCategories": ["APIs","SaaS","PaaS","IaaS"],
       "workflowCategories":["Pre Defined Workflow","Custom Workflow"],
