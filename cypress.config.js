@@ -27,6 +27,8 @@ module.exports = defineConfig({
                 },
                 // Add more metadata as needed
               },
+              jsonDir: 'cypress/reports/cucumber-json',
+              reportPath: 'cypress/reports'
             });
           } else {
             console.log('No failed tests. Skipping report generation.');
@@ -35,8 +37,6 @@ module.exports = defineConfig({
           console.error('Error during report generation:', error);
         }
       }); // Closing parenthesis for on('after:run'
-      jsonDir: 'cypress/reports/cucumber-json';
-      reportPath: 'cypress/reports'
       // Add more metadata as needed
     },
   specPattern: "cypress/e2e/*.feature"
