@@ -27,9 +27,9 @@ jobs:
         run: |
           docker build -t my-cypress-image -f Dockerfile --build-arg BROWSER=${{ matrix.browser }} .
            docker run --rm  \
-            -v ./artifacts/screenshots:/Top99TestAutomation/cypress/screenshots \
-            -v ./artifacts/videos:/Top99TestAutomation/cypress/videos \
-            -v ./artifacts/reports:/Top99TestAutomation/cypress/reports my-cypress-image
+            -v ./artifacts/screenshots:/demo/cypress/screenshots \
+            -v ./artifacts/videos:/demo/cypress/videos \
+            -v ./artifacts/reports:/demo/cypress/reports my-cypress-image
         env:
           CI: true
           BROWSER: ${{ matrix.browser }}
