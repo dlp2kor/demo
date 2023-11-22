@@ -25,7 +25,7 @@ jobs:
             
       - name: Build and run Cypress tests
         run: |
-          docker build -t my-cypress-image -f Dockerfile.chrome --build-arg BROWSER=${{ matrix.browser }} .
+          docker build -t my-cypress-image -f Dockerfile --build-arg BROWSER=${{ matrix.browser }} .
            docker run --rm  \
             -v ./artifacts/screenshots:/Top99TestAutomation/cypress/screenshots \
             -v ./artifacts/videos:/Top99TestAutomation/cypress/videos \
