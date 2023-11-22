@@ -18,10 +18,10 @@ module.exports = defineConfig({
           name: 'Browser',
           value: browser
         },
+      },
         jsonDir: 'cypress/reports/cucumber-json',
         reportPath: 'cypress/reports'
         // Add more metadata as needed
-      },
     });
 
     });
