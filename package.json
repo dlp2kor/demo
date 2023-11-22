@@ -4,9 +4,7 @@
   "description": "Cypress cucumber framework",
   "main": "index.js",
   "scripts": {
-    "script": "npx cypress run --browser edge --config-file cypress.config.js",
-    "postTest": "node cucumber-html-report.js",
-    "test":"npm run script && npm run postTest"
+    "test": "npx cypress run --browser ${BROWSER}"
   },
   "author": "",
   "license": "ISC",
