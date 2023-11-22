@@ -12,7 +12,7 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber())
       on('after:run', () => {
         const browser = process.env.BROWSER || 'Unknown';
-    multipleCucumberHtmlReporter.generate({
+    report.generate({
       metadata: {
         browser: {
           name: 'Browser',
