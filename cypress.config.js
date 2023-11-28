@@ -21,7 +21,7 @@ module.exports = defineConfig({
               // Configuration options, customize as needed
               // ...
               metadata: {
-                'Browser': process.env.BROWSER || 'Unknown', // Use BROWSER environment variable or default to 'Not specified'
+                'Browser': process.env.BROWSER || 'not specified', // Use BROWSER environment variable or default to 'Not specified'
                 'Platform': 'Docker'
                 // Add more metadata as needed
               },
