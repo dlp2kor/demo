@@ -20,7 +20,7 @@ module.exports = defineConfig({
               // ...
               metadata: {
                 'Browser': process.env.BROWSER || 'not specified', // Use BROWSER environment variable or default to 'Not specified'
-                'Platform': 'Docker'
+                'Platform': Docker
                 // Add more metadata as needed
               },
               jsonDir: 'cypress/reports/cucumber-json',
