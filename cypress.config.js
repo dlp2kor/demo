@@ -10,9 +10,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
       on('file:preprocessor', cucumber());
-      on('after:run', (results) => {
-        try {
-          if (results && results.totalFailed > 0) {
+      on('after:run', () => {
             // Get the browser parameter from the environment
             // const browser = process.env.BROWSER || 'Unknown';
     
@@ -28,12 +26,7 @@ module.exports = defineConfig({
               jsonDir: 'cypress/reports/cucumber-json',
               reportPath: 'cypress/reports'
             });
-          } else {
-            console.log('No failed tests. Skipping report generation.');
-          }
-        } catch (error) {
-          console.error('Error during report generation:', error);
-        }
+          
       }); // Closing parenthesis for on('after:run'
       // Add more metadata as needed
     },
