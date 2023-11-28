@@ -14,17 +14,15 @@ module.exports = defineConfig({
         try {
           if (results && results.totalFailed > 0) {
             // Get the browser parameter from the environment
-            const browser = process.env.BROWSER || 'Unknown';
+            // const browser = process.env.BROWSER || 'Unknown';
     
             // Generate the HTML report after the test run
             report.generate({
               // Configuration options, customize as needed
               // ...
               metadata: {
-                browser: {
-                  name: 'Browser',
-                  value: browser,
-                },
+                'Browser': process.env.BROWSER || 'Unknown', // Use BROWSER environment variable or default to 'Not specified'
+                'Platform': 'Docker'
                 // Add more metadata as needed
               },
               jsonDir: 'cypress/reports/cucumber-json',
