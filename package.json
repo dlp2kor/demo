@@ -10,23 +10,21 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.17.4",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.5.0"
   },
   "cypress-cucumber-preprocessor": {
-
-      "nonGlobalStepDefinitions": true,
-      "step_definitions": "cypress/e2e",
-        "cucumberJson": {
-          "generate": true,
-         "outputFolder": "cypress/reports/cucumber-json",
-          "filePrefix": "",
-          "fileSuffix": ".cucumber"
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
     }
-     
-    } ,
-    "dependencies": {
-      "cucumber": "^6.0.7",
-      "multiple-cucumber-html-reporter": "^3.4.0",
-      "cypress-real-events": "^1.10.1"
-    }
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cypress-real-events": "^1.10.1"
+  }
 }
